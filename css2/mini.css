@@ -68,6 +68,9 @@ a {
   }
 
   @media (max-width: 730px) {
+      body {
+        overflow-x: hidden;
+      }
     nav ul {
         display: flex;
         flex-direction: column;
