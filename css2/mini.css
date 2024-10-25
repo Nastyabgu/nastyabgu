@@ -7,6 +7,7 @@ body {
     background: url('https://www.armalco.info/wp-content/uploads/2020/08/Best-Thinks-To-Know-for-Pro-Bus-Tour-Tips.jpg');
     background-size: cover;
     background-attachment: fixed;
+      overflow-x: hidden;
 }
 
 
@@ -68,9 +69,6 @@ a {
   }
 
   @media (max-width: 730px) {
-      body {
-        overflow-x: hidden;
-      }
     nav ul {
         display: flex;
         flex-direction: column;
